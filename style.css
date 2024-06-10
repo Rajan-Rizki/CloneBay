@@ -1,0 +1,170 @@
+.container{
+    justify-content: space-between;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li{
+    display: inline;
+    margin: 10px;
+}
+.navright ul{
+    list-style-type: none;
+}
+.navright{
+    text-align: right;
+    margin-top: -35px;
+}
+.navright ul li{
+    margin: 5px;
+    display: inline;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.eBay {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.ebay-logo {
+    color: red;
+}
+
+.ebay-logo span {
+    color: blue;
+}
+
+.ebay-logo span:nth-child(2) {
+    color: orange;
+}
+
+.ebay-logo span:nth-child(3) {
+    color: green;
+}
+
+.search-box {
+    margin: 0 10px;
+}
+
+.search-box input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.categories {
+    margin: 0 10px;
+    position: relative;
+}
+
+.categories i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #666;
+}
+
+.search-button {
+    background-color: #4285F4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #357ae8;
+}
+
+.advanced-link {
+    color: #4285F4;
+    text-decoration: none;
+}
+
+.advanced-link:hover {
+    text-decoration: underline;
+}
+.tiny ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.tiny a {
+    text-decoration: none;
+    color: black;
+}
+
+.tiny a:hover{
+    color: blue;
+    text-decoration-line: underline;
+}
+
+.tiny ul li {
+    position: relative;
+    display: inline-block; /* Keep list items inline */
+    margin-right: 10px;
+    justify-content: center;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 4px;
+    width: 940px;
+    z-index: 1;
+    padding: 10px;
+    text-align: left;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.line{
+    margin-left: -8px;
+}
+
+.tiny ul li:hover .dropdown-content {
+    display: block;
+}
+
+.image-dropdown1{
+    float: right;
+}
+.image-dropdown2{
+    float: right;
+    margin-right: 10px;
+}
+.image-dropdown3{
+    float: right;
+
+}
+.image-dropdown4{
+    float: right;
+}
+.image-dropdown5{
+    float: right;
+}
+.image-dropdown6{
+    float: right;
+}
+.image-dropdown7{
+    float: right;
+}
+.image-dropdown8{
+    float: right;
+}
